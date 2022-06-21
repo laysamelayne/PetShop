@@ -5,13 +5,39 @@
 }
 
 body {
-    min-width: 320px;
+   min-width: 320px;
 }
 
 :root {
     --colorDefault: #FFF;
     --bgColor1: #FFAF14;
 }
+
+.bg-grey{
+    background-color: #CCCCCC;
+    }
+    
+.bg-blue{
+    background-color: #07B4D9;
+}
+    
+.bg-orange{
+    background-color: #F74E02;
+}
+
+.bg-ligth-green{
+    background-color: #D5E5F4;
+}
+
+.primery-color{
+    color: #FFAF14;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+ }
+ 
 
 /* HEADER */
 .header-menu {
@@ -66,3 +92,42 @@ body {
 .slider .carousel-inner img {
     height: 200px;
 }
+
+ /* Sobre Nós */
+ 
+ #sobre img{
+   max-height: 500px;
+ }
+ 
+ .content2{
+   padding: 5rem 1rem;
+   gap: 3rem;
+   flex-direction: column;
+ }
+ 
+ 
+ @media(min-width: 600px){
+    .content2{
+        padding: 5rem 2rem;
+       flex-direction: row;
+       align-items: center;
+       gap: 1rem;
+       
+    }
+ 
+    .text-wrapp{
+       max-width: 50%;
+       }
+ }
+
+ @media(min-width: 800px){
+    .content2{
+        padding: 5rem 3rem;
+       gap:  3rem;
+    }
+ }
+ 
+ 
+ 
+ 
+ 
